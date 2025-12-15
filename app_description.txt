@@ -1,0 +1,39 @@
+Offline Fitness Workouts - Complete Workout Guide
+
+A fully offline fitness application that provides comprehensive workout routines without requiring any internet connection or permissions.
+
+KEY FEATURES:
+- 5 workout categories with multiple routines
+- Step-by-step exercise instructions
+- Built-in workout timer
+- Progress tracking (workouts completed, minutes trained, calories burned)
+- Favorites system
+- Difficulty filtering (Easy, Medium, Hard)
+- Search functionality
+- Light/Dark theme support
+- 100% offline - no internet required
+- Zero permissions - completely private
+
+WORKOUT CATEGORIES:
+1. Full Body Workouts - Complete body training routines
+2. Abs & Core - Core strengthening exercises
+3. Arms & Shoulders - Upper body workouts
+4. Legs & Glutes - Lower body training
+5. Stretching & Flexibility - Flexibility and recovery routines
+
+EACH WORKOUT INCLUDES:
+- Detailed description
+- Duration in minutes
+- Difficulty level
+- Step-by-step instructions
+- Estimated calories burned
+
+PRIVACY & SECURITY:
+- No data collection
+- No permissions required
+- All data stored locally on device
+- No network requests
+- No third-party tracking
+
+Perfect for users who want a privacy-focused, offline fitness solution that works anywhere, anytime.
+

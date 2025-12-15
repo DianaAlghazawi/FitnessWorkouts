@@ -1,0 +1,154 @@
+Testing Instructions for Offline Fitness Workouts
+
+PRE-TESTING SETUP:
+1. Ensure Flutter 3.x is installed
+2. Run: flutter pub get
+3. Connect a device or start an emulator
+4. Build and install the app
+
+TESTING CHECKLIST:
+
+1. APP LAUNCH
+   - [ ] App launches without crashes
+   - [ ] Database initializes correctly
+   - [ ] Sample workouts are loaded
+   - [ ] Home screen displays correctly
+
+2. NAVIGATION
+   - [ ] All category cards are clickable
+   - [ ] Navigation between screens works
+   - [ ] Back button works on all screens
+   - [ ] App bar actions navigate correctly
+
+3. WORKOUT CATEGORIES
+   - [ ] All 5 categories display
+   - [ ] Each category shows correct workouts
+   - [ ] Workout count is accurate per category
+
+4. WORKOUT LIST SCREEN
+   - [ ] Workouts display in list
+   - [ ] Difficulty filter works (All, Easy, Medium, Hard)
+   - [ ] Filtering updates list correctly
+   - [ ] Empty state shows when no workouts match filter
+   - [ ] Workout cards are clickable
+
+5. WORKOUT DETAILS SCREEN
+   - [ ] All workout information displays
+   - [ ] Steps are numbered correctly
+   - [ ] Favorite button toggles correctly
+   - [ ] Start Workout button navigates to timer
+
+6. WORKOUT TIMER
+   - [ ] Timer starts correctly
+   - [ ] Timer counts down accurately
+   - [ ] Pause/Resume works
+   - [ ] Reset works
+   - [ ] Step navigation works (next/previous)
+   - [ ] Completion dialog appears when timer ends
+   - [ ] History is logged on completion
+
+7. FAVORITES
+   - [ ] Add to favorites works
+   - [ ] Remove from favorites works
+   - [ ] Favorites screen shows saved workouts
+   - [ ] Empty state shows when no favorites
+   - [ ] Favorite icon updates correctly
+
+8. PROGRESS TRACKING
+   - [ ] Stats display correctly (workouts, minutes, calories)
+   - [ ] History list shows completed workouts
+   - [ ] History entries show correct date
+   - [ ] Empty state shows when no history
+   - [ ] Stats update after completing workout
+
+9. SETTINGS
+   - [ ] Theme switching works (Light/Dark/System)
+   - [ ] Theme persists after app restart
+   - [ ] App version displays correctly
+   - [ ] Privacy Policy link works
+
+10. PRIVACY POLICY
+    - [ ] Privacy policy screen displays
+    - [ ] All sections are readable
+    - [ ] Content is accurate
+
+11. OFFLINE FUNCTIONALITY
+    - [ ] Turn off WiFi/Mobile data
+    - [ ] All features work without internet
+    - [ ] No network errors appear
+    - [ ] App functions normally
+
+12. PERMISSIONS
+    - [ ] Check app permissions in device settings
+    - [ ] Verify zero permissions are requested
+    - [ ] App works without any permissions granted
+
+13. ACCESSIBILITY
+    - [ ] Enable screen reader
+    - [ ] Navigate app with screen reader
+    - [ ] All buttons have tooltips/semantics
+    - [ ] Text is readable
+
+14. EDGE CASES
+    - [ ] Rapid navigation doesn't cause crashes
+    - [ ] Timer continues during app backgrounding
+    - [ ] Database handles concurrent access
+    - [ ] Empty lists don't crash
+    - [ ] Invalid data doesn't crash app
+
+15. PERFORMANCE
+    - [ ] App launches quickly (< 3 seconds)
+    - [ ] Lists scroll smoothly
+    - [ ] No memory leaks
+    - [ ] Battery usage is reasonable
+
+16. UI/UX
+    - [ ] Material 3 design is consistent
+    - [ ] Colors are appropriate for theme
+    - [ ] Text is readable
+    - [ ] Buttons are appropriately sized
+    - [ ] Layout works on different screen sizes
+
+17. DATA PERSISTENCE
+    - [ ] Close and reopen app
+    - [ ] Favorites persist
+    - [ ] History persists
+    - [ ] Settings persist
+
+18. ERROR HANDLING
+    - [ ] Error states display correctly
+    - [ ] Loading states show spinners
+    - [ ] Empty states are user-friendly
+
+REGRESSION TESTING:
+- Complete a full workout flow
+- Add/remove favorites
+- Check progress updates
+- Verify theme persistence
+- Test all navigation paths
+
+PERFORMANCE TESTING:
+- Test with 100+ workout history entries
+- Test with many favorites
+- Monitor memory usage
+- Check database query performance
+
+ACCESSIBILITY TESTING:
+- Test with TalkBack (Android) / VoiceOver (iOS)
+- Verify all interactive elements are accessible
+- Check color contrast ratios
+- Test with large text sizes
+
+COMPATIBILITY TESTING:
+- Test on different Android versions
+- Test on different screen sizes
+- Test in portrait and landscape (if supported)
+- Test on tablets
+
+FINAL CHECKS:
+- [ ] No console errors
+- [ ] No lint warnings
+- [ ] App builds in release mode
+- [ ] APK size is reasonable
+- [ ] All features work as expected
+
